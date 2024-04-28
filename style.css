@@ -1,0 +1,76 @@
+body{
+    background-image: url("./images/bed3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+#logo{
+    margin-left: 20px;
+    display: inline;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+    /* border: 1px solid black; */
+}
+#logo:hover{
+    font-size: 40px;
+}
+header ul{
+    display: inline;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+header ul li:hover{
+    font-size: 23px;
+    /* border-bottom: 1px solid aquamarine; */
+    text-decoration-line: underline;
+}
+header ul li{
+    list-style-type: none;
+    padding: 40px;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 1px solid black; */
+}
+main{
+    margin: 300px auto;
+    margin-left: 20%;
+
+}
+#mainHeading{
+    font-size: 80px;
+    
+}
+#watch{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+#subscribe{
+    background-color: transparent;
+    border: 1px solid aquamarine;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+#subscribe:hover{
+    width: 140px;
+    height: 45px;
+}
+#watch:hover{
+    width: 140px;
+    height: 45px;
+}
