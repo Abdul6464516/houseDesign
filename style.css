@@ -29,9 +29,13 @@ header ul li a{
 }
 header ul li:hover{
     font-size: 23px;
+    color:orange;
+    text-decoration: solid;
+    text-decoration-color: orange;
     /* border-bottom: 1px solid aquamarine; */
     text-decoration-line: underline;
 }
+
 header ul li{
     list-style-type: none;
     padding: 40px;
@@ -51,12 +55,13 @@ main{
     
 }
 #watch{
-    background-color: aquamarine;
+    background-color: transparent;
     border-radius: 10px;
     padding: 10px;
     color: white;
     width: 130px;
     height: 40px;
+    border: 1px solid aquamarine;
 }
 #subscribe{
     background-color: transparent;
@@ -71,10 +76,12 @@ main{
 #subscribe:hover{
     width: 140px;
     height: 45px;
+    background-color: aquamarine;
 }
 #watch:hover{
     width: 140px;
     height: 45px;
+    background-color: aquamarine;
 }
 main #para{
     margin-left: 100px;
